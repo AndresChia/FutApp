@@ -1,0 +1,51 @@
+.ContenedorLogInButton button{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 100%;
+    line-height: 15px;
+    min-height: 60px !important;
+    color: #000000;
+    background: #ddba76;
+    background: -webkit-gradient(linear, left top, right top, from(#ddba76), to(#a7884f));
+    background: linear-gradient(to right, #ddba76 0%, #a7884f 100%);
+    height: 8vh;
+}
+
+
+.contenedorForm{
+    height: 92vh;
+}
+
+
+#component-LogIn{
+    background-color: black;
+    background-blend-mode: luminosity;
+}
+
+.panel button.active::after{
+    position: absolute;
+    content: " ";
+    border: 1px solid #DCB975;
+    width: 40% !important;
+    bottom: 31px;
+    left: 30%;
+    opacity: 0.9;
+}
+
+
+.panel button{
+    background: transparent;
+    color: aliceblue;
+}
+
+
+.panel mat-grid-list::after{
+    position: absolute;
+    content: " ";
+    border: 1px solid rgb(243, 242, 240);
+    width: 80% !important;
+    bottom: 1px;
+    left: 10%;
+    opacity: 0.9;
+}
